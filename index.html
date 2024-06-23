@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Eres mi perrita❤️?</title>
+    <style>
+        .body{
+            background-color: darkviolet;
+            text-align: center;}
+            .body__tittle{color: white;}
+
+            .body__img {width: 60%; border-radius: 50%;}
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__tittle">¿Eres mi perrita❤️?</h1>
+    <img src="https://i.pinimg.com/236x/77/be/d9/77bed97b9516a61156440fbdde17cc3a.jpg" alt="una fotico de mi" class="body__img"/>
+    <button id="yes">😍sisoy amor mio😍</button>
+    <button id="no">💀muerase gas💀</button>
+    
+<script>
+    const vutonSi = document.getElementById('yes');
+    const vutonNo = document.getElementById('no');
+
+const sieres = () => {
+    alert ('felicitaciones, seras mi perra toda la vida');
+    alert ('😨cuando nos veamos te fornico😨');
+    location.href = 'https://youtu.be/98Akpf1ph2o'
+};
+
+const noeres = () => {
+    vutonNo.style.position = 'absolute';
+    vutonNo.style.top = (math.random()* window.innerHeight) + 'px';
+    vutonNo.style.left = (math.random()* window.innerWidth) + 'px';
+};
+
+vutonSi.addEventListener('click',sieres);
+vutonNo.addEventListener('mouseover',noeres);
+</script>
+</body>
+
+</html>
